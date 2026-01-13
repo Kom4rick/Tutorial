@@ -29,6 +29,4 @@ public class LoginPage extends BasePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(errorMsg));
         return driver.findElement(errorMsg).getText();
     }
-
-
 }
